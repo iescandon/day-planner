@@ -53,4 +53,10 @@ $('.time-block').each(function(){
 //save button event listener
 $('.saveBtn').click(saveDescription);
 
-//clear on new day
+//clear button event listener
+$('.clearBtn').click(function(){
+    localStorage.clear();
+    hoursArray.forEach(function(hour) {
+        $(`#${hour} .description`).val('');
+    })
+})

@@ -20,6 +20,13 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+
+  .clearBtn {
+    border-radius: 15px;
+    background-color: #06AED5;
+    padding: 15px;
+    color: white;
+  }
   
   .container {
     padding-bottom: 150px;
