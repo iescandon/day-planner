@@ -41,13 +41,15 @@ hoursArray.forEach(function(hour) {
     $(`#${hour} .description`).val(localStorage.getItem(hour));
 })
 
-//FIX THIS
 //adds css classes to hour rows depending on if its in the present past or future
 $('.time-block').each(function(){
     var hourBlock = parseInt($(this).attr('id'));
     if (hourBlock < currentHour) {
-        $(this).addClass('past')
+        $(this).removeClass('future');
+        $(this).removeClass('present');
+        $(this).addClass('past');
     } else if (hourBlock === currentHour) {
+        $(this).removeClass('future');
         $(this).removeClass('past');
         $(this).addClass('present');
     } else {
