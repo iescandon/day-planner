@@ -7,7 +7,7 @@ https://iescandon.github.io/day-planner/
 
 ## Description 
 
-This website is designed as an application to quiz the user on their knowledge of coding. User goes through the quiz by clicking on buttons and submits their results using a form. As soon as quiz has been initiated timer is counting down and scores are being kept. If user gets an answer correctly they get points added to their score. If the user gets an answer incorrect they lose 5 seconds off of their time. The user is informed of whether their answer was correct or incorrect. If the user was incorrect they are also informed of which answer was the correct answer. Results are displayed at the end of the quiz or when time runs out. User types their initials and their initials and scores are then stored into local storage. Local storage can be cleared. HTML and CSS is designed to be make the application easy to use and understand.
+This website is designed to function as an interactive day planner. It allows the user to plan their day by simply typing in the hour block and clicking the save button. The information gets saved and set back into the local page with help from local storage. CSS classes and JS help keep the current hour red, the past hours grey, and the future hours green. Current date is being displayed at the top of the page. Clear button is provided at the top to help clear the planner.
 
 
 ## Table of Contents (Optional)
@@ -22,10 +22,10 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-In order to install this project, you must login to GitHub and go to github.com/iescandon/code-quiz. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
+In order to install this project, you must login to GitHub and go to github.com/iescandon/day-planner. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
 Using SSH/HTML Key:
-You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone _paste url here_. Once you have cloned the git code-quiz repo, cd into the repo and type "open ." to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.
+You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone _paste url here_. Once you have cloned the git day-planner repo, cd into the repo and type "open ." to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.
 
 Using Download ZIP:
 Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and and open it. All the files for the website will be within this folder. Click on index.html to open the website in the browser.
@@ -39,11 +39,6 @@ Website functions as a normal website. Once on the website simply click on the b
 ## Credits
 
 Worked with my tutor Ivan Popov in creating basic structure and functions.
-
-Worked with Brandon Gatlin and Peter Winston during office hours to help debug my code.
-
-Background image of laptop with glasses -
-Photo by Jesus Kiteque on Unsplash
 
 
 ## License
