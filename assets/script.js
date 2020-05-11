@@ -1,6 +1,4 @@
-// var currentHour =  parseInt(moment().format('h'));
 var currentHour = moment().hours();
-// var hoursArray = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 var hoursArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
 $('#currentDay').text(moment().format('dddd, MMMM Do YYYY'));
@@ -13,13 +11,6 @@ hoursArray.forEach(function(hour) {
     var timeCol = $('<div>');
     timeCol.addClass('col-1 hour');
     timeCol.text(hour + ':00');
-    // if (hour < 6) {
-    //     timeCol.text(hour + 'PM');
-    // } else if (hour === 12) {
-    //     timeCol.text(hour + 'PM');
-    // } else {
-    //     timeCol.text(hour + 'AM');
-    // }
     var textCol = $('<textarea>');
     textCol.addClass('col-10 description');
     var btnCol = $('<button>');
@@ -59,9 +50,7 @@ $('.time-block').each(function(){
     }
 })
 
-
 //save button event listener
 $('.saveBtn').click(saveDescription);
-
 
 //clear on new day
