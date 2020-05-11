@@ -21,6 +21,10 @@ body {
     border-bottom: 10px solid black;
   }
   
+  .container {
+    padding-bottom: 150px;
+  }
+
   .description{
     white-space: pre-wrap;
   }
