@@ -33,7 +33,7 @@ Click on Download Zip. Locate the file and double click it to unzip the file. Lo
 
 ## Usage 
 
-Website functions as a normal website. Once on the website simply click on the buttons to take the quiz and interact with the page. Type in the form to enter initials.
+Website functions as a normal website. Once on the website simply click on the hour block and type in what you would like to add to your planner. Click save button to save information. If you would like to clear the entire planner, click on the clear planner button.
 
 
 ## Credits
